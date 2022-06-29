@@ -1,0 +1,32 @@
+DAPPS are websites made using Web3 tech
+- smart contract repo
+- html/ js front end repo
+
+READ: - window.ethereum will tell us is metamask is installed on a system... 
+.innerHTML command changed the text written on button
+ALWAYS USE PRETTIER and make .prettierrc in your folder
+
+how websites work with Web3
+- under the hood the wallets have a node installed into them...
+- these connections to the nodes are needed for us to make web3 apps
+
+method:
+- make basic html
+- connect metamask with our website : check if present
+        : if present, now let's connect it..
+- nodeJS is not the best lang for front end... so instead we use nextJS
+- next we must add ethers to interact with blockchain. for this, we make a lib of ethers on our system and then we add that using local import. 
+
+
+
+READ: import is better than require()
+next also uses yarn and node to add stuff, but the raw js is diff
+changing type to module allows us to use module (importing) in the js. [prev: txt/javascript]
+Web3Provider allows us to work around metamask. Its similar to JSON RPC URL but does its work automatically
+normally, instead of hardcoding anything into our program, we pass them using parameters.
+import account on metamask allows us to import money from an account using the "private key" in there...
+
+resetting accounts on metamask -> setting>advanced>(scrolldown)reset account---->> works only with local accounts. best not to use with real accounts
+READ: transactionResponse.hash-> hash function
+returning a promise is basically us telling it ki agar ye hota hai, to pass kar dena, varna fail kar dena. 
+while creating a professional contract, also add in reject in the promise...
